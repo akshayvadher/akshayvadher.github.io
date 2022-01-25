@@ -85,6 +85,8 @@ params:
       url: "https://stackoverflow.com/users/1534925/akshay"
     - name: twitter
       url: "https://twitter.com/akshay_vadher"
+    - name: goodreads
+      url: "https://www.goodreads.com/akshayvadher"
 
   # analytics:
   #   google:
