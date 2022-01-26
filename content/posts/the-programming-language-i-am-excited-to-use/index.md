@@ -4,7 +4,13 @@ date: 2021-06-12T01:14:23+05:30
 draft: false
 tags: ["programming", "language", "tech"]
 author: ["Akshay Vadher"]
+categories: ["tech"]
+Summary: "When you starting a new project, choosing a programming language is a hard choice. Here is Here is my take."
 ---
+
+When you starting a new project, choosing a programming language is a hard choice. Here is my take.
+
+On one had you might want to chose a _cool_ languge but on other hand you might want to chose a _stable_ language. 
 ## For 
 web servers or any _general-purpose production_ system
 

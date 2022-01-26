@@ -39,6 +39,7 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
+  enableEmoji: true
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -71,18 +72,18 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Hi there \U0001F928"
+    Content: I vent Technology and Personal thoughts here
 
   socialIcons:
     - name: github
       url: "https://github.com/akshayvadher"
     - name: linkedin
       url: https://www.linkedin.com/in/akshayvadher/
-    - name: instagram
-      url: https://www.instagram.com/akshayvadher/
     - name: stackoverflow
       url: "https://stackoverflow.com/users/1534925/akshay"
+    - name: instagram
+      url: https://www.instagram.com/akshayvadher/
     - name: twitter
       url: "https://twitter.com/akshay_vadher"
     - name: goodreads
@@ -102,7 +103,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/akshayvadher.github.io/content"
+    URL: "https://github.com/akshayvadher/akshayvadher.github.io/tree/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -118,17 +119,18 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    # - identifier: categories
-    #   name: categories
-    #   url: /categories/
-    #   weight: 10
+    - identifier: categories
+      name: Tech
+      url: /categories/tech
+      weight: 10
+
     - name: Search
       url: search/
-      weight: 10
+      weight: 20
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 20
+      weight: 30
     - name: About Me
       url: about-me/
-      weight: 30
+      weight: 40
