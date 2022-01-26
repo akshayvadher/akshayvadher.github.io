@@ -5,6 +5,25 @@
     <link>https://akshayvadher.github.io/categories/</link>
     <description>Recent content in Categories on Akshay Vadher</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://akshayvadher.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Jun 2021 01:14:23 +0530</lastBuildDate><atom:link href="https://akshayvadher.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tech</title>
+      <link>https://akshayvadher.github.io/categories/tech/</link>
+      <pubDate>Sat, 12 Jun 2021 01:14:23 +0530</pubDate>
+      
+      <guid>https://akshayvadher.github.io/categories/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>personal</title>
+      <link>https://akshayvadher.github.io/categories/personal/</link>
+      <pubDate>Fri, 27 Dec 2019 00:21:18 +0530</pubDate>
+      
+      <guid>https://akshayvadher.github.io/categories/personal/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
