@@ -89,6 +89,8 @@ params:
       url: https://www.linkedin.com/in/akshayvadher/
     - name: stackoverflow
       url: "https://stackoverflow.com/users/1534925/akshay"
+    - name: youtube
+      url: https://www.youtube.com/c/AkshayVadher
     - name: instagram
       url: https://www.instagram.com/akshayvadher/
     - name: twitter
