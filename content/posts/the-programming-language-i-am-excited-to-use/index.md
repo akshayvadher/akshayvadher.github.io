@@ -6,7 +6,14 @@ tags: ["programming", "language", "tech"]
 author: ["Akshay Vadher"]
 categories: ["tech"]
 Summary: "When you starting a new project, choosing a programming language is a hard choice. Here is Here is my take."
+cover:
+    image: "markus-spiske-gcgves5H_Ac-unsplash.jpg"
+    alt: "programming lauguage image"
+    caption: programming lauguage image"
+    relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
+
+![programming lauguage image](markus-spiske-gcgves5H_Ac-unsplash.jpg)
 
 When you starting a new project, choosing a programming language is a hard choice. Here is my take.
 
@@ -70,7 +77,9 @@ What I don't like about Go?
 _Edit 1_
 
 _**`Kotlin, spring-native, and GraalVM`**_ (Maybe)
-> The day you go will have all features as java, java will be as fast as go - Graeme Rocher (creator of Groovy, Grails, Micronaut)
+> The day `go` will have all features as java, java will be as fast as go 
+>
+> \- _Graeme Rocher_ (creator of Groovy, Grails, Micronaut)
 
 With GraalVM & spring-native or micronaut, we get compiled code
 
@@ -131,3 +140,7 @@ _The day typescript will have its own compiler, I will use this._
 
 **PHP**: Are they still using it! Wordpress. If you remove wordpress never seen PHP anywhere. I don't think facebook still uses it.
 
+
+##### Credit
+Photo by [Markus Spiske](https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  

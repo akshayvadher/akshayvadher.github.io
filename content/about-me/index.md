@@ -4,7 +4,8 @@ summary: "about me"
 layout: "about"
 ---
 
-![akshay vadher profile photo](profile-photo-square.jpeg)
+<!-- ![akshay vadher profile photo](profile-photo-square.jpeg) -->
+![Akshay Vadher profile photo](modhera_sun_temple.jpg)
 
 Hi,
 

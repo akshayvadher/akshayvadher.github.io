@@ -6,7 +6,14 @@ tags: ["personal", "motivation"]
 categories: ["personal"]
 author: ["Akshay Vadher"]
 summary: There was a time when I felt low. I wanted to leave everything and rest. Something happened and I got motivation to work. A sad motivation.
+cover:
+    image: "benjamin-davies-FiZTaNTj2Ak-unsplash.jpg"
+    alt: "Motivation image"
+    caption: Motivation image"
+    relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
+
+![motivational image](benjamin-davies-FiZTaNTj2Ak-unsplash.jpg)
 
 A story when I was a fresher 👶🏻 in an IT company.
 
@@ -38,5 +45,12 @@ I turned around. Went to the office. Started working on problems one at a time (
 
 The conclusion: _When you feel low, think about real problems people might have, ours are simple. Work on a single tiny doable item._
 
-P.S.
+##### _P.S._
 Now I think that day, I should have helped him in any way possible; maybe financial. I was naive back then.
+
+##### _P.P.S._
+Still, over the time I've learnt that, though some have bigger and _real_ issues, some issues are as hurting as the _real_ ones. For example, being in depression or loosing a parent; issue with those issues is, everyday you have to live that issue, there isn't anything you can do to rever or get around. Seek professional help for those.
+
+#### Credit
+Photo by [Benjamin Davies](https://unsplash.com/@bendavisual?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/motivation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  

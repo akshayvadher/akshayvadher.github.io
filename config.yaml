@@ -79,7 +79,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F928"
+    Title: "Hey \U0001F928"
     Content: I vent Technology and Personal thoughts here
 
   socialIcons:
