@@ -11,3 +11,6 @@ Hi,
 
 I am Akshay Vadher
 
+
+#### Credit
+Image by [Ditubai](https://www.instagram.com/ditubai/)
