@@ -2,7 +2,7 @@
 title: "The Programming Language I Am Excited to Use"
 date: 2021-06-12T01:14:23+05:30
 draft: false
-tags: ["programming", "language", "tech"]
+tags: ["programming", "language"]
 author: ["Akshay Vadher"]
 categories: ["tech"]
 Summary: "When you starting a new project, choosing a programming language is a hard choice. Here is Here is my take."
@@ -70,7 +70,7 @@ _**`Go`**_ (easy, good syntax, static typing and compiles fast, many libraries)
 
 What I don't like about Go?
 * Solid framework like spring. 
-* Module management (prove me wrong!) 
+* Module management (Now they have!) 
 * No generics (Maybe that is for good!) 
 * Extra things like liquibase integration 
 
