@@ -2,7 +2,7 @@
 title: "The Programming Language I Am Excited to Use"
 date: 2021-06-12T01:14:23+05:30
 draft: false
-tags: ["programming", "language"]
+tags: ["programming", "language", "tech"]
 author: ["Akshay Vadher"]
 categories: ["tech"]
 Summary: "When you starting a new project, choosing a programming language is a hard choice. Here is Here is my take."
@@ -66,7 +66,7 @@ Java (Nearly there), Javascript (lousy), Rust (Awesome), Go
 Python, Javascript, Go
 
 ## My choice
-_**`Go`**_ (easy, good syntax, static typing and compiles fast, many libraries)
+_**`Go`**_ (easy, good syntax, static typing and compiles fast, many libraries, menial resource consumption)
 
 What I don't like about Go?
 * Solid framework like spring. 
