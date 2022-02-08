@@ -5,6 +5,7 @@ draft: false
 tags: ["programming", "language", "tech"]
 author: ["Akshay Vadher"]
 categories: ["tech"]
+weight: 1
 Summary: "When you starting a new project, choosing a programming language is a hard choice. Here is Here is my take."
 cover:
     image: "markus-spiske-gcgves5H_Ac-unsplash.jpg"

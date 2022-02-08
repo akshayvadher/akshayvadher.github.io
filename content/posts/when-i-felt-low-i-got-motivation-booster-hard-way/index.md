@@ -5,6 +5,7 @@ draft: false
 tags: ["personal", "motivation"]
 categories: ["personal"]
 author: ["Akshay Vadher"]
+weight: 2
 summary: There was a time when I felt low. I wanted to leave everything and rest. Something happened and I got motivation to work. A sad motivation.
 cover:
     image: "benjamin-davies-FiZTaNTj2Ak-unsplash.jpg"
