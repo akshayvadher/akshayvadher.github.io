@@ -6,7 +6,7 @@
     <description>Recent content on Akshay Vadher</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Jun 2021 01:14:23 +0530</lastBuildDate><atom:link href="https://akshayvadher.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://akshayvadher.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Programming Language I Am Excited to Use</title>
       <link>https://akshayvadher.github.io/posts/the-programming-language-i-am-excited-to-use/</link>
@@ -23,6 +23,15 @@
       
       <guid>https://akshayvadher.github.io/posts/when-i-felt-low-i-got-motivation-booster-hard-way/</guid>
       <description>There was a time when I felt low. I wanted to leave everything and rest. Something happened and I got motivation to work. A sad motivation.</description>
+    </item>
+    
+    <item>
+      <title>My journey to test driven development (TDD)</title>
+      <link>https://akshayvadher.github.io/posts/my-journey-to-test-driven-development/</link>
+      <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akshayvadher.github.io/posts/my-journey-to-test-driven-development/</guid>
+      <description>How I became TDD evangelist from testing hating guy</description>
     </item>
     
     <item>
