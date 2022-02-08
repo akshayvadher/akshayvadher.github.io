@@ -68,15 +68,23 @@ Python, Javascript, Go
 ## My choice
 _**`Go`**_ (easy, good syntax, static typing and compiles fast, many libraries, menial resource consumption)
 
+Other reasons apart from mentioned above
+* **No magic code** (If you add `@Transactional` in spring, it takes care of starting, ending, and commiting your transactions. It is magic. But it is double edged sword. It can do harm if not coded properly. Go is IdiotProof) (Also it is hard to master the _magic_ code. It would take weeks or months for anyone to learn Spring annotations or Ruby coding styles.)
+* Minimal resource consumption (CPU, memory - spring takes 100+ MiB to start)
+* Opinionated code (There are only minimal way you can code something - makes it easy to manage a large team and code base)
+* Great threading (If you spin off 1000 thread in java with `Thread.sleep(10 * 1000)` then your app will become unresponsive. That doesn't happen with go routines. At least it is not as bad as java)
+* Many cloud native and open source tools are written in go. [kubernetes](https://kubernetes.io/), [docker](https://www.docker.com/), and [sops](https://github.com/mozilla/sops) are some examples
+
+
 What I don't like about Go?
-* Solid framework like spring. 
+* Solid framework like spring (gin is available though! Not sure how good is that). 
 * Module management (Now they have!) 
-* No generics (Maybe that is for good!) 
-* Extra things like liquibase integration 
+* No generics (Maybe that is for good!) (update, now they are adding that too) 
+* Extra things like liquibase integration (There are ways, but no out of box ways)
 
 _Edit 1_
 
-_**`Kotlin, spring-native, and GraalVM`**_ (Maybe)
+_**`Kotlin, spring-native/micronaut, and GraalVM`**_ (Maybe)
 > The day `go` will have all features as java, java will be as fast as go 
 >
 > \- _Graeme Rocher_ (creator of Groovy, Grails, Micronaut)
@@ -84,8 +92,9 @@ _**`Kotlin, spring-native, and GraalVM`**_ (Maybe)
 With GraalVM & spring-native or micronaut, we get compiled code
 
 With Kotlin, we get awesome syntax, functional support within Java ecosystem. 
+Also, with reactive java, we get around threading issues. Reactive itself is hard though. 
 
-So maybe **_Kotlin, spring-native, and GraalVM_**. Depends on the preference of other stakeholders, existing knowledge, etc. 
+So maybe **_Kotlin, spring-native/micronaut, and GraalVM_**. Depends on the preference of other stakeholders, existing knowledge, etc. 
 	
 ---
 ## Honorary mentions

@@ -5,12 +5,12 @@ layout: "about"
 ---
 
 <!-- ![akshay vadher profile photo](profile-photo-square.jpeg) -->
-![Akshay Vadher profile photo](modhera_sun_temple.jpg)
+<!-- ![Akshay Vadher profile photo](modhera_sun_temple.jpg) -->
 
 Hi,
 
 I am Akshay Vadher
 
 
-#### Credit
-Image by [Ditubai](https://www.instagram.com/ditubai/)
+<!-- #### Credit
+Image by [Ditubai](https://www.instagram.com/ditubai/) -->
