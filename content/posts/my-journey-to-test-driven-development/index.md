@@ -1,7 +1,7 @@
 ---
 title: "My journey to test driven development (TDD)"
 date: 2022-02-08
-draft: true
+draft: false
 tags: ["tech", "test", "TDD", "test-driven-development"]
 categories: ["tech"]
 author: ["Akshay Vadher"]
@@ -57,9 +57,9 @@ public class HappyBirthdayControllerUnitTest() {
 ```
 The same way, every example mocks databases. That was the biggest issue for me. 
 
-We are not developing algorithms, we are developing APIs, which need to interact with database.
+We are not developing algorithms, we are developing APIs, which need to interact with databases.
 
-If you are mocking the database then you are losing out a big chunck of logic from testability perspective. 
+If you are mocking the database then you are losing out a big chunk of logic from testability perspective. 
 
 _Reason 2_
 If you ask a developer to add test cases to existing API then (s)he will write some junk code and name that a test case. Nobody tests the tests!
@@ -96,7 +96,7 @@ I stumbled upon [test containers](https://www.testcontainers.org/); the idea is 
 I loved the idea. 
 
 ### Adaptation
-When I looked back, it seems that I was following TDD all along. It just that I never **Automated** my steps. 
+When I looked back, it seems that I was following TDD all along. It's just that I never **Automated** my steps. 
 
 I saw [choonkeat](https://github.com/choonkeat)'s TDD [video](#tddfor-those-who-dont-need-it) in a Go conf. I loved it. It is a must watch. That made sense to me. I am a getting things done guy (with code quality an integral part though). 
 
@@ -106,10 +106,10 @@ It helps me take baby steps. As I first write API integration test, then I write
 
 Eventually, I created one TDD [video](#unit-testing-in-angular-tdd-screencast). Not to be helpful to others but just to practice and learn.  
 
-### TDD rules - take aways
-If you don't read anything from this post, just make sure you do following two things
-* **Make sure you have failing test**
-* **Don't write any code before you have failing test**
+### TDD rules - takeaways
+If you don't read anything from this post, just make sure you do the following two things
+* **Make sure you have a failing test first**
+* **Don't write any code before you have a failing test**
 
 ### Issues
 The example I mentioned above still ended up in our test suite. I think having that type of test cases are **silly**. 

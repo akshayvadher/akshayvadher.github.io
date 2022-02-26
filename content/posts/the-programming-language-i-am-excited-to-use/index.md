@@ -16,11 +16,15 @@ cover:
 
 ![programming lauguage image](markus-spiske-gcgves5H_Ac-unsplash.jpg)
 
-When you starting a new project, choosing a programming language is a hard choice. Here is my take.
+When you are starting a new project, choosing a programming language is a hard choice. Here is my take.
 
-On one had you might want to chose a _cool_ languge but on other hand you might want to chose a _stable_ language. 
+On one hand, you might want to choose a _cool_ language but on another hand, you might want to choose a _stable_ language. 
 ## For 
-web servers or any _general-purpose production_ system
+Web servers or any _general-purpose production_ system
+
+_Disclaimer_
+
+_Before you read further, I want to clarify that languages and frameworks are just tools, they don't guarantee success, the way you design and code your system makes all the difference, tools will just help you ease the process if used correctly._
 
 ---
 ## My criteria
@@ -70,15 +74,15 @@ Python, Javascript, Go
 _**`Go`**_ (easy, good syntax, static typing and compiles fast, many libraries, menial resource consumption)
 
 Other reasons apart from mentioned above
-* **No magic code** (If you add `@Transactional` in spring, it takes care of starting, ending, and commiting your transactions. It is magic. But it is double edged sword. It can do harm if not coded properly. Go is IdiotProof) (Also it is hard to master the _magic_ code. It would take weeks or months for anyone to learn Spring annotations or Ruby coding styles.)
+* **No magic code** (If you add `@Transactional` in spring, it takes care of starting, ending, and committing your transactions. It is magic. But it is double edged sword. It can do harm if not coded properly. Go is IdiotProof) (Also it is hard to master the _magic_ code. It would take weeks or months for anyone to learn Spring annotations or Ruby coding styles.)
 * Minimal resource consumption (CPU, memory - spring takes 100+ MiB to start)
-* Opinionated code (There are only minimal way you can code something - makes it easy to manage a large team and code base)
-* Great threading (If you spin off 1000 thread in java with `Thread.sleep(10 * 1000)` then your app will become unresponsive. That doesn't happen with go routines. At least it is not as bad as java)
+* Opinionated code (There are only minimal ways you can code something - makes it easy to manage a large team and codebase)
+* Great threading (If you spin off 1000 threads in java with `Thread.sleep(10 * 1000)` then your app will become unresponsive. That doesn't happen with goroutines. At least it is not as bad as java)
 * Many cloud native and open source tools are written in go. [kubernetes](https://kubernetes.io/), [docker](https://www.docker.com/), and [sops](https://github.com/mozilla/sops) are some examples
 
 
 What I don't like about Go?
-* Solid framework like spring ([gin](https://github.com/gin-gonic/gin) is available though! Not sure how good is that). 
+* A solid framework like spring ([gin](https://github.com/gin-gonic/gin) is available though! Not sure how good is that). 
 * Module management (Now they have!) 
 * No generics (Maybe that is for good!) (update, now they are adding that too) 
 * Extra things like liquibase integration (There are ways, but no out of box ways)
@@ -93,7 +97,7 @@ _**`Kotlin, spring-native/micronaut, and GraalVM`**_ (Maybe)
 With GraalVM & spring-native or micronaut, we get compiled code
 
 With Kotlin, we get awesome syntax, functional support within Java ecosystem. 
-Also, with reactive java, we can solved threading issues. Reactive itself is hard though. 
+Also, with reactive java, we can solve threading issues. Reactive itself is hard though. 
 
 So maybe **_Kotlin, spring-native/micronaut, and GraalVM_**. Depends on the preference of other stakeholders, existing knowledge, etc. 
 	
@@ -102,7 +106,7 @@ So maybe **_Kotlin, spring-native/micronaut, and GraalVM_**. Depends on the pref
 
 **Python**: Easy  
 
-However, I think pandas, numpy, jupyter notebook are the reasons for python's popularity
+However, I think pandas, numpy, jupyter notebook, and usage from non-coding background users are the reasons for python's popularity
 
 Good to start but not good performance/memory wise in production
 
@@ -132,9 +136,9 @@ Easy.
 
 You can do almost anything. Hugely error prone, lousy memory management
 
-However, bootstraping doesn't require too much memory. For simple programs, it takes less than 100MBs as compared to java which requires 500MBs. Even if javascript requires chrome engine to work. I have chosen this for simple rest APIs or simple kafka consumers because of best time to market.
+However, bootstrapping doesn't require too much memory (It sounds crazy given the fact that it has to call C APIs at runtime!). For simple programs, it takes less than 100MBs as compared to java which requires 500MBs. Even if javascript requires chrome engine to work. I have chosen this for simple rest APIs or simple kafka consumers because of best time to market.
 
-Not to forget almost _best event based paradigm_. Love it for IO.  
+Not to forget almost the _best event based paradigm_. Love it for IO.  
 
 **Typescript**: Huge fan.
 
@@ -144,9 +148,9 @@ _The day typescript will have its own compiler, I will use this._
 
 **Kotline, Scala, Groovy**: What typescript is for javascript, these languages are for java
 
-**Clojure**: Because Lisp. However not sure much. Still compiles to java!
+**Clojure**: Because of Lisp. However not sure much. Still compiles to java!
 
-**C#**: Java's brother (or Sister!). I am anyways opensource guy.
+**C#**: Java's brother (or Sister!). I am anyways an opensource guy.
 
 **PHP**: Are they still using it! Wordpress. If you remove wordpress never seen PHP anywhere. I don't think facebook still uses it.
 

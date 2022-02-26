@@ -20,7 +20,7 @@ A story when I was a fresher 👶🏻 in an IT company.
 
 I was working on a project where nothing was going good. The deadline was near and the work was mammoth. There was no way we could complete the given work on deadline. 
 
-On top of that, we had multiple issues. My team leader had a nervous breakdown. Other team members were lethargic 🥴. I just got a fracture in my leg. The manager was eager to complete the work in any way. 
+On top of that, we had multiple issues. My team leader had a nervous breakdown. A few team members were lethargic 🥴. I just got a fracture in my leg. The manager was eager to complete the work in any way. 
 
 I felt like I was the only one taking all the work on my shoulder. I felt tired 😫.
 
@@ -38,7 +38,7 @@ This was not enough, his salary was around ₹5000. The standard cost of living 
 
 He wanted to leave everything. He wanted to leave his organization and go back to his village.
 
-Suddenly **my problems seemed tiny**. I didn't have a family to provide for. I didn't have any liability. I was earning more than the standard cost of living. My parents were well off. I had luxury of getting good education. _He had **real problems**._
+Suddenly **my problems seemed tiny**. I didn't have a family to provide for. I didn't have any liability. I was earning more than the standard cost of living. My parents were well off. I had the luxury of getting good education. _He had **real problems**._
 
 **I never had to think about food, a roof, or clothes.**
 
@@ -50,7 +50,7 @@ The conclusion: _When you feel low, think about real problems people might have,
 Now I think that day, I should have helped him in any way possible; maybe financial. I was naive back then.
 
 ##### _P.P.S._
-Still, over the time I've learnt that, though some have bigger and _real_ issues, some issues are as hurting as the _real_ ones. For example, being in depression or loosing a parent; issue with those issues is, everyday you have to live that issue, there isn't anything you can do to rever or get around. Seek professional help for those.
+Still, over time I've learnt that, though some have bigger and _real_ issues, some issues are as hurting as the _real_ ones. For example, being in depression or losing a parent; the issue with those issues is, every day you have to live that issue, there isn't anything you can do to rever or get around. Seek professional help for those.
 
 #### Credit
 Photo by [Benjamin Davies](https://unsplash.com/@bendavisual?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/motivation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
