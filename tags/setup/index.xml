@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>setup on Akshay Vadher</title>
+    <link>https://akshayvadher.github.io/tags/setup/</link>
+    <description>Recent content in setup on Akshay Vadher</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Mar 2022 00:44:06 +0530</lastBuildDate><atom:link href="https://akshayvadher.github.io/tags/setup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Steps to Make Windows Terminal So Good You Won&#39;t Miss Zsh</title>
+      <link>https://akshayvadher.github.io/posts/steps-to-make-windows-terminal-so-good-you-wont-miss-zsh/</link>
+      <pubDate>Wed, 02 Mar 2022 00:44:06 +0530</pubDate>
+      
+      <guid>https://akshayvadher.github.io/posts/steps-to-make-windows-terminal-so-good-you-wont-miss-zsh/</guid>
+      <description>A few months back I switched to Windows and I missed ZSH promt so much. But after these setup I don&amp;rsquo;t want to go back.</description>
+    </item>
+    
+  </channel>
+</rss>
