@@ -7,12 +7,12 @@ categories: ["tech"]
 author: ["Akshay Vadher"]
 summary: A few months back I switched to Windows and I missed ZSH promt so much. But after these setup I don't want to go back.
 cover:
-    image: "windows-terminal.png"
+    image: "windows-terminal.jpg"
     alt: "Windows Terminal"
     caption: Windows Terminal"
     relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
-![Windows Terminal Image](windows-terminal.png)
+![Windows Terminal Image](windows-terminal.jpg)
 
 A few months ago I switched to Windows. The biggest thing I missed - ZSH and [Oh My Zsh](https://ohmyz.sh/).
 
