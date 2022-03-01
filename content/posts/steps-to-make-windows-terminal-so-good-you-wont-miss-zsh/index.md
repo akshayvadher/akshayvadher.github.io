@@ -130,3 +130,5 @@ $env:MY_ENV_VARIABLE // to print/get
 #### Back Search
 `Cltr + r` will do the back search the same as Linux terminal
 
+#### Linux inside windows
+You can still enable `wsl 2` inside windows and make use of all the features of Windows terminal and still can use Linux under the hood. It is a different topic and requires its own post.
