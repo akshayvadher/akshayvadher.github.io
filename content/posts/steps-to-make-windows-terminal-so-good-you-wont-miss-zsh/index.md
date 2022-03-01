@@ -1,7 +1,7 @@
 ---
 title: "Steps to Make Windows Terminal So Good You Won't Miss Zsh"
 date: 2022-03-02T00:44:06+05:30
-draft: true
+draft: false
 tags: ["tech", "terminal", "windows", "setup", "steps"]
 categories: ["tech"]
 author: ["Akshay Vadher"]
