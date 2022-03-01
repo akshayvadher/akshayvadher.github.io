@@ -6,6 +6,7 @@ tags: ["tech", "test", "TDD", "test-driven-development"]
 categories: ["tech"]
 author: ["Akshay Vadher"]
 summary: How I became TDD evangelist from testing hating guy
+weight: 3
 cover:
     image: "test-scenario.jpg"
     alt: "Test scenario"

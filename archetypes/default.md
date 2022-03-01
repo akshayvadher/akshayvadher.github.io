@@ -5,6 +5,7 @@ draft: true
 tags: []
 categories: ["tech"]
 author: ["Akshay Vadher"]
+summary: How I became TDD evangelist from testing hating guy
 cover:
     image: "benjamin-davies-FiZTaNTj2Ak-unsplash.jpg"
     alt: "Motication image"
