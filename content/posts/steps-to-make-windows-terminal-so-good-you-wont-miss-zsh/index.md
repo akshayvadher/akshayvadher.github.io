@@ -89,7 +89,7 @@ Invoke-Expression (&starship init powershell)
 
 [Customize](https://starship.rs/config/#prompt) (Add Jazz) to Starship. However, I won't recommend doing this right away. First, setup everything and start using it all and then come back to this and tweak however you like.
 
-If you still want to configure, I will add my configuration file below. Paste that code to your `C:\Users\<username>\.config\starship.toml` file.
+If you still want to configure, I will add my configuration file below. Paste that code to your `C:\Users\<username>\.config\starship.toml` file. Or some presets are available [here](https://starship.rs/presets/) 
 
 ```toml
 add_newline = true
