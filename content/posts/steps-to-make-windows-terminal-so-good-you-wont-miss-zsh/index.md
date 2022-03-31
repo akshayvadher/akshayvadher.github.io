@@ -136,6 +136,16 @@ disabled = false
 [golang]
 format = "via [🏎💨 $version](bold cyan) "
 
+[kubernetes]
+format = 'k8s [⛵ ($user on )($cluster in )$context \($namespace\)](green) '
+disabled = false
+
+[kubernetes.context_aliases]
+"arn:aws:eks:<REGION_HERE>:ACCOUNT_ID_HERE:cluster/dev" = "dev"
+"arn:aws:eks:<REGION_HERE>:ACCOUNT_ID_HERE:cluster/test" = "test"
+".*/openshift-cluster/.*" = "openshift"
+"gke_.*_(?P<var_cluster>[\\w-]+)" = "gke-$var_cluster"
+
 [battery]
 full_symbol = "🔋 "
 charging_symbol = "⚡️ "
