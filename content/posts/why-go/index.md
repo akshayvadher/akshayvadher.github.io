@@ -20,6 +20,7 @@ However, after using it, those are not the only thing I like about Go. Here is t
 
 ## Go Routines
 **This is the biggest thing**
+
 `Java` code is synchronous, if we want to have async processing then we have to use Reactive Programming (which is the hardest paradigm I have learnt). Every new request in java creates a new OS thread - which takes up too many resources.
 
 `JavaScript` uses `async` and `await` to accomplish this. Same for `c#` and `rust`. 
