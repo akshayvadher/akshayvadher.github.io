@@ -1,7 +1,7 @@
 ---
 title: "Why Go"
 date: 2022-04-29T17:34:52+05:30
-draft: true
+draft: false
 tags: ["tech", "go"]
 categories: ["tech"]
 author: ["Akshay Vadher"]
@@ -31,6 +31,9 @@ Go Routines are awesome. It creates light weight threads (which are not related 
 [Case study]
 I wanted to performance testing. I started using [JMeter](https://jmeter.apache.org/) but soon I had to have multiple instances running just to do performance testing. Then I chose [Gatling](https://gatling.io/) because of its async actor model; it was nice but setup process was bit tedious. Then I came across [k6](https://k6.io/), it makes use of go routines the best way, now I could generate the same amount of traffic from my local machine. 
 
+[Case study]
+We made a mistake in our Java code. The there was async operation that had to be started after 2 seconds. So we added `Thread.sleep(2)`. Even though it was async, it created thread and (Little did we know) there were apparently thousands of such requests, hence our "async" operatation crashed whole server. That can never happen in Go. 
+
 ## Best of everything
 For **readability** use **python**
 
@@ -44,7 +47,7 @@ Notice how Go is not there in any of choice? It is because Go is #2 in everythin
 
 If you use Python then you compromise performance, if you use C then you compromise readability. But if you chose Go, then you get the best of everything.
 
-*It is easiest to write clean and performant code with GO*
+*It is easiest to write clean and performant code with GO (and less ways to go wrong)*
 
 ## Minimal keywords
 Go doesn't have rich set of keywords. 
