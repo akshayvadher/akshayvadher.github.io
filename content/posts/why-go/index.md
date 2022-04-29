@@ -73,6 +73,9 @@ Along with that, the compiler is one of the *fastest*. (as compared to other lan
 
 _+clean coding_
 
+## Testing
+Go has testing, coverage, and benchmarking in built.
+
 ## Statically typed
 So you don't get surprises in PROD
 
@@ -95,6 +98,8 @@ My Java Spring project took 50+ MiB of RAM after start but the same Go program c
 
 ## Cloud Ready
 Because of the above reasons, it is best suited for cloud deployment
+
+Many (if not most) cloud tools are created in Go. Examples, Kubernetes, Docker, OpenTelemetry, Sops, CockroachDB, Consul, Hugo, Terraform, etc.
 
 ## Dependency
 You don't have to import any binary to the project, Everything is source code. You just provide github link and go will fetch sourcecode and make the dependency available.
