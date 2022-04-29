@@ -79,6 +79,7 @@ Other reasons apart from mentioned above
 * Opinionated code (There are only minimal ways you can code something - makes it easy to manage a large team and codebase)
 * Great threading (If you spin off 1000 threads in java with `Thread.sleep(10 * 1000)` then your app will become unresponsive. That doesn't happen with goroutines. At least it is not as bad as java)
 * Many cloud native and open source tools are written in go. [kubernetes](https://kubernetes.io/), [docker](https://www.docker.com/), and [sops](https://github.com/mozilla/sops) are some examples
+* More comprehensive list about other features of Go is listed in [other post](/posts/why-go)
 
 
 What I don't like about Go?
