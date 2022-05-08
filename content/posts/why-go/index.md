@@ -18,7 +18,7 @@ In another [post](/posts/the-programming-language-i-am-excited-to-use/), I descr
 However, after using it, those are not the only thing I like about Go. Here is the list of things I like about Go that stand out. 
 
 
-## Go Routines
+## Go Routines (async by default)
 **This is the biggest thing**
 
 `Java` code is synchronous, if we want to have async processing then we have to use Reactive Programming (which is the hardest paradigm I have learnt). Every new request in java creates a new OS thread - which takes up too many resources.
@@ -40,7 +40,7 @@ For **readability** use **python**
 
 For **performance** use **rust**
 
-For **everything** use **java**
+For **everything** use **java** (nobody ever got fired for chosing java)
 
 For **fast delivery** use **python, javascript**
 
@@ -74,8 +74,64 @@ Along with that, the compiler is one of the *fastest*. (as compared to other lan
 
 _+clean coding_
 
-## Testing
-Go has testing, coverage, and benchmarking in built.
+## Minimal magic
+If you add `@Transactional` in spring(java), it takes care of starting, ending, and committing your transactions. It is magic. But it is double edged sword. It can do harm if not coded properly. 
+
+Go is IdiotProof
+
+Also it is hard to master the magic code. It would take weeks or months for anyone to learn Spring annotations or Ruby coding styles.
+
+I could not figure out from where my spring/micronaut project is injecting `java.time` module of `jackson` library - I have been working in java for 10 years. But I could figure out from where `aws-otel` library is injecting `otel` library's code by searching for just a few mins - I never worked on Go PROD code
+
+## Testing (and code analysis)
+Go has testing, coverage, benchmarking, race condition detection, test with random data generation, static code analysis, and http mock server in built.
+
+### Testing
+`go test` to test all the *_test.go files
+
+### Coverage
+`go build -cover` to check coverage with tests
+
+### Benchmarking
+`go test -bench="."` to benchmark, example output of a function that calculates primenumber as following
+```
+ go test -bench=. -benchtime=10s
+BenchmarkPrimeNumbers/input_size_100-4           3010218              4073 ns/op
+BenchmarkPrimeNumbers/input_size_1000-4           143540             86319 ns/op
+BenchmarkPrimeNumbers/input_size_74382-4             451          26289573 ns/op
+BenchmarkPrimeNumbers/input_size_382399-4             43         240926221 ns/op
+PASS
+ok      github.com/xyz/random     54.723s
+```
+
+### Race detection
+`go test -race` can check if two go routines are trying to read write the same memory address
+
+### Test with random data generation
+In the following example, we don't need to input any `hinduArabic` integers, Go will randomly provide integers and test agains inverted method (Roman to Hindu-Arabic and Hindu-Arabic to Roman conversion should be the same)
+
+The `quick.Check` method will randomly suply data and will call `assertion` method
+```go
+func TestPropertiesOfConversion(t *testing.T) {
+	assertion := func(hinduArabic int) bool {
+		roman := ConvertToRoman(hinduArabic)
+		fromRoman := ConvertToHinduArabic(roman)
+		return fromRoman == hinduArabic
+	}
+
+	if err := quick.Check(assertion, nil); err != nil {
+		t.Error("failed checks", err)
+	}
+}
+```
+
+Reference: [Learn Go with tests](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/roman-numerals#an-intro-to-property-based-tests)
+
+### Static code analysis
+`go vet` to check for potential issues our code might have. (Remember, unused imports and variables do not count in this because those are issues for sure and it won't allow you to compile)
+
+### Http mock
+We have to use `WireMock` (arguably awesome tool) to create mock api servers. Go has httptest package, that can create the same thing out of box from language.
 
 ## Statically typed
 So you don't get surprises in PROD
@@ -110,12 +166,10 @@ Since, everything is source code (and no class), the final binary will have only
 ## Immutability
 What do you think output of the following code?
 ```go
-
 account := Account{InitialBalance: 50.0}
 account.Add(50.0)
 
 fmt.PrintF(account.Balance())
-
 ```
 
 Do you think output will be `100.0`? Then, you are wrong. Go code is immutable by default, you either have to assign it to a new variable or pass as a pointer
