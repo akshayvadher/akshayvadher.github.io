@@ -2,7 +2,7 @@
 title: I Like Cactus More Than Rose 🌵
 date: 2022-05-08T22:22:15+05:30
 draft: false
-tags: [""]
+tags: ["plant", "cactus", "succulent"]
 categories: ["plant", "personal"]
 author: ["Akshay Vadher"]
 summary: I like nature and plants in general but cactuses are my favorite, here is why
