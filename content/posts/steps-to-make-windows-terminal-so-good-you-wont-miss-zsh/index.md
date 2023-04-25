@@ -218,3 +218,6 @@ This is probably a different topic. But we need to use CURL a lot. There are mul
 http :8080/api/v1/health a=b
 ```
 Here it will automatically consider localhost as host. Also, as we have passed `a=b` it will automatically consider it as a POST request with `Content-Type: application/json` and body as `{"a":"b"}`.
+
+### Conclusion
+Maybe it might look complex to setup and it might not be as powerfull as other alternatives. But these things are tools not toys. If those help me get things done then I am happy.
