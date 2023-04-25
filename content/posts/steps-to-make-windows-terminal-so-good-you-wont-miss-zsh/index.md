@@ -185,6 +185,12 @@ function getAllKubernetes(){
 }
 ```
 
+#### Search
+We miss `grep` in Windows. There is almost similar utility in Windos called `findstr`. Usage ⬇️⬇
+```
+cat file.txt | findstr "search"
+```
+
 #### Env variable
 This is not directly related but this comes a lot. It is easy to set env variable in Linux. `export ENV_A="ABC"`. Also all the setup guideline of any software assume that you are on Linux and will provide the `export` based command in the example. 
 
@@ -199,3 +205,16 @@ $env:MY_ENV_VARIABLE // to print/get
 
 #### Linux inside windows
 You can still enable `wsl 2` inside windows and make use of all the features of Windows terminal and still can use Linux under the hood. It is a different topic and requires its own post.
+
+I sometimes use `git bash` where someone has written a linux specific script and I don't want to spin off WSL just for one commant. 
+
+#### HTTP client
+This is probably a different topic. But we need to use CURL a lot. There are multiple ways. 
+
+1. Install `curl` using `choco` and use it. `choco install curl`
+2. Use `Invoke-WebRequest` in powershell. It is a built-in command. (though it is not that good)
+3. Use `HTTPie`. `choco install httpie`. It is way more convenient than `curl` and `Invoke-WebRequest`. Example ⬇️⬇
+```
+http :8080/api/v1/health a=b
+```
+Here it will automatically consider localhost as host. Also, as we have passed `a=b` it will automatically consider it as a POST request with `Content-Type: application/json` and body as `{"a":"b"}`.

@@ -38,7 +38,7 @@ _Before you read further, I want to clarify that languages and frameworks are ju
 * Easy (relatively not steep learning curve) 
 ---
 ## My criteria - language choice
-**Static typing** (Because error-prone, Performance optimization)
+**Static typing** (Because error-proof, Performance optimization)
 
 Java, C, Rust, Go (sorry python and javascript)
 
