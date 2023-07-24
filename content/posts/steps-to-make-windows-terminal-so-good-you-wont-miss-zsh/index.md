@@ -24,7 +24,7 @@ supported.
 
 Following are all the capabilities from a shell/prompt/terminal
 
-1. Tabs (I used Tilix in Ubuntu/PopOs)
+1. Tabs and Tiling (I used Tilix in Ubuntu/PopOs)
 2. A bit of Jazz (Colors, Icons, Emojis) (OhMyZ suffice this and following all things)
 3. Information about current dir (Example, using git plugin, shell shows current branch, number of commits to push,
    etc.)
@@ -41,7 +41,7 @@ Turned out, the only thing I missed about linux is its terminal capability.
 
 Which alternatives in windows solved all issues
 
-1. Tabs and Tabs ([Windows Terminal](https://aka.ms/terminal))
+1. Tabs and Tiling ([Windows Terminal](https://aka.ms/terminal))
 2. Jazz ([Starship](https://starship.rs/), [Nerd Fonts](https://www.nerdfonts.com/))
 3. Plugin (Starship Plugins)
 4. Autocompletion ([Powershell 7](https://github.com/PowerShell/PowerShell) native feature)
