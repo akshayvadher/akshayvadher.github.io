@@ -147,6 +147,9 @@ menu:
     - name: About Me
       url: about-me/
       weight: 50
+    - name: Now
+      url: now/
+      weight: 60
 
 taxonomies:
     category: categories
