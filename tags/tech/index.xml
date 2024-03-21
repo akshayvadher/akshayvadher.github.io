@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>tech on Akshay Vadher</title>
-    <link>https://akshayvadher.github.io/tags/tech/</link>
-    <description>Recent content in tech on Akshay Vadher</description>
+    <title>Tech on Akshay Vadher</title>
+    <link>https://www.iaxy.in/tags/tech/</link>
+    <description>Recent content in Tech on Akshay Vadher</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Apr 2022 17:34:52 +0530</lastBuildDate><atom:link href="https://akshayvadher.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Apr 2022 17:34:52 +0530</lastBuildDate><atom:link href="https://www.iaxy.in/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Programming Language I Am Excited to Use</title>
-      <link>https://akshayvadher.github.io/posts/the-programming-language-i-am-excited-to-use/</link>
+      <link>https://www.iaxy.in/posts/the-programming-language-i-am-excited-to-use/</link>
       <pubDate>Sat, 12 Jun 2021 01:14:23 +0530</pubDate>
       
-      <guid>https://akshayvadher.github.io/posts/the-programming-language-i-am-excited-to-use/</guid>
+      <guid>https://www.iaxy.in/posts/the-programming-language-i-am-excited-to-use/</guid>
       <description>When you starting a new project, choosing a programming language is a hard choice. Here is Here is my take.</description>
     </item>
     
     <item>
       <title>My journey to test driven development (TDD)</title>
-      <link>https://akshayvadher.github.io/posts/my-journey-to-test-driven-development/</link>
+      <link>https://www.iaxy.in/posts/my-journey-to-test-driven-development/</link>
       <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://akshayvadher.github.io/posts/my-journey-to-test-driven-development/</guid>
+      <guid>https://www.iaxy.in/posts/my-journey-to-test-driven-development/</guid>
       <description>How I became TDD evangelist from testing hating guy</description>
     </item>
     
     <item>
       <title>Why Go</title>
-      <link>https://akshayvadher.github.io/posts/why-go/</link>
+      <link>https://www.iaxy.in/posts/why-go/</link>
       <pubDate>Fri, 29 Apr 2022 17:34:52 +0530</pubDate>
       
-      <guid>https://akshayvadher.github.io/posts/why-go/</guid>
+      <guid>https://www.iaxy.in/posts/why-go/</guid>
       <description>Why Go lang. What are the feature I like the most.</description>
     </item>
     
     <item>
       <title>Steps to Make Windows Terminal So Good You Won&#39;t Miss Zsh</title>
-      <link>https://akshayvadher.github.io/posts/steps-to-make-windows-terminal-so-good-you-wont-miss-zsh/</link>
+      <link>https://www.iaxy.in/posts/steps-to-make-windows-terminal-so-good-you-wont-miss-zsh/</link>
       <pubDate>Wed, 02 Mar 2022 00:44:06 +0530</pubDate>
       
-      <guid>https://akshayvadher.github.io/posts/steps-to-make-windows-terminal-so-good-you-wont-miss-zsh/</guid>
+      <guid>https://www.iaxy.in/posts/steps-to-make-windows-terminal-so-good-you-wont-miss-zsh/</guid>
       <description>A few months back I switched to Windows and I missed ZSH prompt so much. But after these setup I don&amp;rsquo;t want to go back.</description>
     </item>
     

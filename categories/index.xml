@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Akshay Vadher</title>
-    <link>https://akshayvadher.github.io/categories/</link>
+    <link>https://www.iaxy.in/categories/</link>
     <description>Recent content in Categories on Akshay Vadher</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 May 2022 22:22:15 +0530</lastBuildDate><atom:link href="https://akshayvadher.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 May 2022 22:22:15 +0530</lastBuildDate><atom:link href="https://www.iaxy.in/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>personal</title>
-      <link>https://akshayvadher.github.io/categories/personal/</link>
+      <title>Personal</title>
+      <link>https://www.iaxy.in/categories/personal/</link>
       <pubDate>Sun, 08 May 2022 22:22:15 +0530</pubDate>
       
-      <guid>https://akshayvadher.github.io/categories/personal/</guid>
+      <guid>https://www.iaxy.in/categories/personal/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>plant</title>
-      <link>https://akshayvadher.github.io/categories/plant/</link>
+      <title>Plant</title>
+      <link>https://www.iaxy.in/categories/plant/</link>
       <pubDate>Sun, 08 May 2022 22:22:15 +0530</pubDate>
       
-      <guid>https://akshayvadher.github.io/categories/plant/</guid>
+      <guid>https://www.iaxy.in/categories/plant/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>tech</title>
-      <link>https://akshayvadher.github.io/categories/tech/</link>
+      <title>Tech</title>
+      <link>https://www.iaxy.in/categories/tech/</link>
       <pubDate>Fri, 29 Apr 2022 17:34:52 +0530</pubDate>
       
-      <guid>https://akshayvadher.github.io/categories/tech/</guid>
+      <guid>https://www.iaxy.in/categories/tech/</guid>
       <description></description>
     </item>
     

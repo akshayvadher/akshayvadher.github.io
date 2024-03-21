@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>go on Akshay Vadher</title>
-    <link>https://akshayvadher.github.io/tags/go/</link>
-    <description>Recent content in go on Akshay Vadher</description>
+    <title>Go on Akshay Vadher</title>
+    <link>https://www.iaxy.in/tags/go/</link>
+    <description>Recent content in Go on Akshay Vadher</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Apr 2022 17:34:52 +0530</lastBuildDate><atom:link href="https://akshayvadher.github.io/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Apr 2022 17:34:52 +0530</lastBuildDate><atom:link href="https://www.iaxy.in/tags/go/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why Go</title>
-      <link>https://akshayvadher.github.io/posts/why-go/</link>
+      <link>https://www.iaxy.in/posts/why-go/</link>
       <pubDate>Fri, 29 Apr 2022 17:34:52 +0530</pubDate>
       
-      <guid>https://akshayvadher.github.io/posts/why-go/</guid>
+      <guid>https://www.iaxy.in/posts/why-go/</guid>
       <description>Why Go lang. What are the feature I like the most.</description>
     </item>
     
