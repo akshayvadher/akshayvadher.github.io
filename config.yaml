@@ -99,8 +99,7 @@ params:
     - name: goodreads
       url: "https://www.goodreads.com/akshayvadher"
     - name: Incubyte Blog
-      url: "https://blog.incubyte.co/authors/akshay-vadher/"
-
+      url: "https://engineering.incubyte.co/authors/akshay-vadher/"
 
   # analytics:
   #   google:
