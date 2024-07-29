@@ -1,5 +1,5 @@
 ---
-title: "Steps to Make Windows Terminal So Good You Won't Miss Zsh"
+title: "My Windows terminal setup"
 date: 2022-03-02T00:44:06+05:30
 draft: false
 tags: [ "tech", "terminal", "windows", "setup", "steps" ]
@@ -60,7 +60,9 @@ click install.
 
 It powers all the Jazz for terminal like showing icons, emojis, and ligatures.
 Follow [this](https://www.nerdfonts.com/font-downloads) link and download any font you like. Fira Code is the most
-popular. Install after downloading.
+popular. 
+
+Extract fonts, select all, right-click, and select install for all.
 
 #### Windows Terminal
 
